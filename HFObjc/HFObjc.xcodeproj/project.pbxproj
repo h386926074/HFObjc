@@ -13,6 +13,7 @@
 		0676AB8A1F5E51D500CF932A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0676AB881F5E51D500CF932A /* Main.storyboard */; };
 		0676AB8C1F5E51D500CF932A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0676AB8B1F5E51D500CF932A /* Assets.xcassets */; };
 		0676AB8F1F5E51D500CF932A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0676AB8D1F5E51D500CF932A /* LaunchScreen.storyboard */; };
+		0676AB981F5F89CB00CF932A /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0676AB971F5F89CB00CF932A /* TwoViewController.m */; };
 		1638D9B19E071E7EBD807A99 /* libPods-HFObjc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 718C06D1F391B26A9E96BB98 /* libPods-HFObjc.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		0676AB8B1F5E51D500CF932A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0676AB8E1F5E51D500CF932A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0676AB901F5E51D500CF932A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0676AB961F5F89CB00CF932A /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		0676AB971F5F89CB00CF932A /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		4DAF2690D527D4EDE7ED32B3 /* Pods-HFObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFObjc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HFObjc/Pods-HFObjc.debug.xcconfig"; sourceTree = "<group>"; };
 		718C06D1F391B26A9E96BB98 /* libPods-HFObjc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HFObjc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A169FDA1C5A21BF6D2EEF118 /* Pods-HFObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFObjc.release.xcconfig"; path = "Pods/Target Support Files/Pods-HFObjc/Pods-HFObjc.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				0676AB831F5E51D500CF932A /* AppDelegate.m */,
 				0676AB851F5E51D500CF932A /* ViewController.h */,
 				0676AB861F5E51D500CF932A /* ViewController.m */,
+				0676AB961F5F89CB00CF932A /* TwoViewController.h */,
+				0676AB971F5F89CB00CF932A /* TwoViewController.m */,
 				0676AB881F5E51D500CF932A /* Main.storyboard */,
 				0676AB8B1F5E51D500CF932A /* Assets.xcassets */,
 				0676AB8D1F5E51D500CF932A /* LaunchScreen.storyboard */,
@@ -229,6 +234,7 @@
 				0676AB871F5E51D500CF932A /* ViewController.m in Sources */,
 				0676AB841F5E51D500CF932A /* AppDelegate.m in Sources */,
 				0676AB811F5E51D500CF932A /* main.m in Sources */,
+				0676AB981F5F89CB00CF932A /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +397,7 @@
 				0676AB951F5E51D500CF932A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

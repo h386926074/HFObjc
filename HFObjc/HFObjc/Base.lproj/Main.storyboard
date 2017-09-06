@@ -60,12 +60,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-180" y="69.715142428785612"/>
+            <point key="canvasLocation" x="-433" y="-104"/>
         </scene>
-        <!--View Controller-->
+        <!--Two View Controller-->
         <scene sceneID="AIy-79-6hG">
             <objects>
-                <viewController id="KoT-NN-6S2" sceneMemberID="viewController">
+                <viewController id="KoT-NN-6S2" customClass="TwoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OzO-l7-CNl"/>
                         <viewControllerLayoutGuide type="bottom" id="adK-li-KHO"/>
@@ -78,6 +78,9 @@
                                 <rect key="frame" x="86" y="270" width="203" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="代理事件"/>
+                                <connections>
+                                    <action selector="delegateClick:" destination="KoT-NN-6S2" eventType="touchUpInside" id="Mn9-dW-7G4"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第二控制器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38c-UR-2XR">
                                 <rect key="frame" x="71" y="48" width="233" height="21"/>
@@ -91,9 +94,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="回到第一控制器"/>
                                 <connections>
-                                    <segue destination="KoT-NN-6S2" kind="popoverPresentation" popoverAnchorView="XD4-HG-5xS" id="6fl-Iq-2Ao">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <action selector="backClose:" destination="KoT-NN-6S2" eventType="touchUpInside" id="dze-z6-Yfk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -102,10 +103,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ukU-jN-R7x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="597.60000000000002" y="72.413793103448285"/>
+            <point key="canvasLocation" x="607" y="-125"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="Z0n-Q1-gzH"/>
-    </inferredMetricsTieBreakers>
 </document>
