@@ -42,12 +42,7 @@ PODS:
   - SDWebImage/Core (3.7.6)
   - SVProgressHUD (2.0.4)
   - UICKeyChainStore (2.1.1)
-  - UMengAnalytics (4.2.4)
-  - UMengSocialCOM (5.2.1)
   - YYCache (1.0.4)
-  - YYKit (1.0.9):
-    - YYKit/no-arc (= 1.0.9)
-  - YYKit/no-arc (1.0.9)
   - ZFPlayer (2.1.5):
     - Masonry
 
@@ -66,9 +61,6 @@ DEPENDENCIES:
   - ReactiveObjC
   - SDWebImage (~> 3.7.6)
   - SVProgressHUD (~> 2.0.3)
-  - UMengAnalytics
-  - UMengSocialCOM
-  - YYKit
   - ZFPlayer
 
 SPEC CHECKSUMS:
@@ -90,12 +82,9 @@ SPEC CHECKSUMS:
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
   UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
-  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
-  UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
-  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
   ZFPlayer: 8a80bf8eb4638b97fbceaefcd3ca9978e9f17c9d
 
-PODFILE CHECKSUM: f33d44ed985af77a407ef37615017dda5e4c0f42
+PODFILE CHECKSUM: 3abad5d6f978ab768c9baf35036dfd8007198dfc
 
 COCOAPODS: 1.2.0
