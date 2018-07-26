@@ -71,7 +71,7 @@
             NSString *CELL2 = @"MAINTABLECELL2";
             cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CELL2];
             cell.backgroundColor = [UIColor redColor];
-            cell.detailTextLabel.text = @"detailTextLabel";
+            cell.detailTextLabel.text = @"更轻量级的ViewController";
             cell.textLabel.text = @"textLabel";
         }
             break;
@@ -110,6 +110,14 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
         break;
+            
+        case 1:
+        {
+            
+            LightWeightController *vc = [[LightWeightController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
     }
 }
 

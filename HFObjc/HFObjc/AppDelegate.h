@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Store.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-
+@property (readonly, strong, nonatomic) Store *store;
++ (instancetype)sharedDelegate;
 @end
 

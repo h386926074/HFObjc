@@ -13,4 +13,11 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #import "ViewController.h"
+#import "ArrayDataSource.h"
+#import "PhotoCell.h"
+#import "Photo.h"
+#import "AppDelegate.h"
+#import "Store.h"
+#import "PhotoCell+ConfigureForPhoto.h"
+#import "LightWeightController.h"
 #endif /* project_pch */

@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0608949721096A4300258856 /* MainControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608949621096A4300258856 /* MainControllerTableViewController.m */; };
+		0608949B2109B05800258856 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608949A2109B05800258856 /* ArrayDataSource.m */; };
+		060894A02109B1F400258856 /* LightWeightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608949F2109B1F400258856 /* LightWeightController.m */; };
+		060894A52109B63400258856 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 060894A32109B63400258856 /* PhotoCell.xib */; };
+		060894A62109B63400258856 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 060894A42109B63400258856 /* PhotoCell.m */; };
+		060894A92109B67600258856 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 060894A72109B67500258856 /* Photo.m */; };
+		060894AC2109B6AF00258856 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 060894AB2109B6AF00258856 /* Store.m */; };
+		060894AE2109B72A00258856 /* photodata.bin in Resources */ = {isa = PBXBuildFile; fileRef = 060894AD2109B72A00258856 /* photodata.bin */; };
+		060894B12109B78300258856 /* PhotoCell+ConfigureForPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 060894AF2109B78200258856 /* PhotoCell+ConfigureForPhoto.m */; };
+		060894B42109B85500258856 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 060894B22109B85500258856 /* User.m */; };
 		0676AB811F5E51D500CF932A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0676AB801F5E51D500CF932A /* main.m */; };
 		0676AB841F5E51D500CF932A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0676AB831F5E51D500CF932A /* AppDelegate.m */; };
 		0676AB871F5E51D500CF932A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0676AB861F5E51D500CF932A /* ViewController.m */; };
@@ -22,6 +31,22 @@
 		0608949521096A4300258856 /* MainControllerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainControllerTableViewController.h; sourceTree = "<group>"; };
 		0608949621096A4300258856 /* MainControllerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainControllerTableViewController.m; sourceTree = "<group>"; };
 		06089498210970AD00258856 /* project.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = project.pch; sourceTree = "<group>"; };
+		060894992109B05800258856 /* ArrayDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		0608949A2109B05800258856 /* ArrayDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		0608949E2109B1F400258856 /* LightWeightController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightWeightController.h; sourceTree = "<group>"; };
+		0608949F2109B1F400258856 /* LightWeightController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightWeightController.m; sourceTree = "<group>"; };
+		060894A22109B63400258856 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		060894A32109B63400258856 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		060894A42109B63400258856 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		060894A72109B67500258856 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		060894A82109B67500258856 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		060894AA2109B6AE00258856 /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		060894AB2109B6AF00258856 /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		060894AD2109B72A00258856 /* photodata.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = photodata.bin; sourceTree = "<group>"; };
+		060894AF2109B78200258856 /* PhotoCell+ConfigureForPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PhotoCell+ConfigureForPhoto.m"; sourceTree = "<group>"; };
+		060894B02109B78200258856 /* PhotoCell+ConfigureForPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PhotoCell+ConfigureForPhoto.h"; sourceTree = "<group>"; };
+		060894B22109B85500258856 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		060894B32109B85500258856 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		0676AB7C1F5E51D500CF932A /* HFObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0676AB801F5E51D500CF932A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0676AB821F5E51D500CF932A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +76,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		060894A12109B61D00258856 /* lightWeight */ = {
+			isa = PBXGroup;
+			children = (
+				0608949E2109B1F400258856 /* LightWeightController.h */,
+				0608949F2109B1F400258856 /* LightWeightController.m */,
+				060894992109B05800258856 /* ArrayDataSource.h */,
+				0608949A2109B05800258856 /* ArrayDataSource.m */,
+				060894A22109B63400258856 /* PhotoCell.h */,
+				060894A42109B63400258856 /* PhotoCell.m */,
+				060894A32109B63400258856 /* PhotoCell.xib */,
+				060894A82109B67500258856 /* Photo.h */,
+				060894A72109B67500258856 /* Photo.m */,
+				060894AA2109B6AE00258856 /* Store.h */,
+				060894AB2109B6AF00258856 /* Store.m */,
+				060894AD2109B72A00258856 /* photodata.bin */,
+				060894B02109B78200258856 /* PhotoCell+ConfigureForPhoto.h */,
+				060894AF2109B78200258856 /* PhotoCell+ConfigureForPhoto.m */,
+				060894B32109B85500258856 /* User.h */,
+				060894B22109B85500258856 /* User.m */,
+			);
+			name = lightWeight;
+			sourceTree = "<group>";
+		};
 		0676AB731F5E51D500CF932A = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +124,7 @@
 				0676AB861F5E51D500CF932A /* ViewController.m */,
 				0676AB961F5F89CB00CF932A /* TwoViewController.h */,
 				0676AB971F5F89CB00CF932A /* TwoViewController.m */,
+				060894A12109B61D00258856 /* lightWeight */,
 				0676AB7F1F5E51D500CF932A /* Supporting Files */,
 			);
 			path = HFObjc;
@@ -177,8 +226,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				060894A52109B63400258856 /* PhotoCell.xib in Resources */,
 				0676AB8F1F5E51D500CF932A /* LaunchScreen.storyboard in Resources */,
 				0676AB8C1F5E51D500CF932A /* Assets.xcassets in Resources */,
+				060894AE2109B72A00258856 /* photodata.bin in Resources */,
 				0676AB8A1F5E51D500CF932A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,10 +289,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				060894A62109B63400258856 /* PhotoCell.m in Sources */,
+				0608949B2109B05800258856 /* ArrayDataSource.m in Sources */,
 				0676AB871F5E51D500CF932A /* ViewController.m in Sources */,
+				060894AC2109B6AF00258856 /* Store.m in Sources */,
+				060894A92109B67600258856 /* Photo.m in Sources */,
 				0676AB841F5E51D500CF932A /* AppDelegate.m in Sources */,
 				0608949721096A4300258856 /* MainControllerTableViewController.m in Sources */,
 				0676AB811F5E51D500CF932A /* main.m in Sources */,
+				060894B42109B85500258856 /* User.m in Sources */,
+				060894B12109B78300258856 /* PhotoCell+ConfigureForPhoto.m in Sources */,
+				060894A02109B1F400258856 /* LightWeightController.m in Sources */,
 				0676AB981F5F89CB00CF932A /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
