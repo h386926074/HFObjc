@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0608949721096A4300258856 /* MainControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608949621096A4300258856 /* MainControllerTableViewController.m */; };
 		0676AB811F5E51D500CF932A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0676AB801F5E51D500CF932A /* main.m */; };
 		0676AB841F5E51D500CF932A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0676AB831F5E51D500CF932A /* AppDelegate.m */; };
 		0676AB871F5E51D500CF932A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0676AB861F5E51D500CF932A /* ViewController.m */; };
@@ -18,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0608949521096A4300258856 /* MainControllerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainControllerTableViewController.h; sourceTree = "<group>"; };
+		0608949621096A4300258856 /* MainControllerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainControllerTableViewController.m; sourceTree = "<group>"; };
+		06089498210970AD00258856 /* project.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = project.pch; sourceTree = "<group>"; };
 		0676AB7C1F5E51D500CF932A /* HFObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0676AB801F5E51D500CF932A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0676AB821F5E51D500CF932A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,16 +72,10 @@
 		0676AB7E1F5E51D500CF932A /* HFObjc */ = {
 			isa = PBXGroup;
 			children = (
-				0676AB821F5E51D500CF932A /* AppDelegate.h */,
-				0676AB831F5E51D500CF932A /* AppDelegate.m */,
 				0676AB851F5E51D500CF932A /* ViewController.h */,
 				0676AB861F5E51D500CF932A /* ViewController.m */,
 				0676AB961F5F89CB00CF932A /* TwoViewController.h */,
 				0676AB971F5F89CB00CF932A /* TwoViewController.m */,
-				0676AB881F5E51D500CF932A /* Main.storyboard */,
-				0676AB8B1F5E51D500CF932A /* Assets.xcassets */,
-				0676AB8D1F5E51D500CF932A /* LaunchScreen.storyboard */,
-				0676AB901F5E51D500CF932A /* Info.plist */,
 				0676AB7F1F5E51D500CF932A /* Supporting Files */,
 			);
 			path = HFObjc;
@@ -86,7 +84,16 @@
 		0676AB7F1F5E51D500CF932A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0608949521096A4300258856 /* MainControllerTableViewController.h */,
+				0608949621096A4300258856 /* MainControllerTableViewController.m */,
+				0676AB821F5E51D500CF932A /* AppDelegate.h */,
+				0676AB831F5E51D500CF932A /* AppDelegate.m */,
 				0676AB801F5E51D500CF932A /* main.m */,
+				0676AB881F5E51D500CF932A /* Main.storyboard */,
+				0676AB8B1F5E51D500CF932A /* Assets.xcassets */,
+				0676AB8D1F5E51D500CF932A /* LaunchScreen.storyboard */,
+				06089498210970AD00258856 /* project.pch */,
+				0676AB901F5E51D500CF932A /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -233,6 +240,7 @@
 			files = (
 				0676AB871F5E51D500CF932A /* ViewController.m in Sources */,
 				0676AB841F5E51D500CF932A /* AppDelegate.m in Sources */,
+				0608949721096A4300258856 /* MainControllerTableViewController.m in Sources */,
 				0676AB811F5E51D500CF932A /* main.m in Sources */,
 				0676AB981F5F89CB00CF932A /* TwoViewController.m in Sources */,
 			);
@@ -356,11 +364,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W9D2VYTA95;
+				GCC_PREFIX_HEADER = HFObjc/project.pch;
 				INFOPLIST_FILE = HFObjc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.HFObjc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "{RACROOT}";
 			};
 			name = Debug;
 		};
@@ -370,11 +380,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W9D2VYTA95;
+				GCC_PREFIX_HEADER = HFObjc/project.pch;
 				INFOPLIST_FILE = HFObjc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.HFObjc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "{RACROOT}";
 			};
 			name = Release;
 		};

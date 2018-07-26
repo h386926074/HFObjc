@@ -20,11 +20,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
+    {
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    }
+    
+//    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60)
+//                                                         forBarMetrics:UIBarMetricsDefault];
+    
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     [[self.racButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
         NSLog(@"--rac按钮被点击了---%@",x);
     }];
     
-  
+    [self.navigationItem setTitle:@"viewcontroller"];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
